@@ -309,7 +309,7 @@ svg { width: 18px; height: 18px; flex: none; }
 
 /* Checklist como livro de registro: linhas, não cartões */
 .items { list-style: none; margin: 0; padding: 0; }
-.item { display: flex; gap: 16px; padding: 16px 4px; border-bottom: 1px solid var(--linha); }
+.item { display: flex; gap: 16px; padding: 16px 4px; border-bottom: 1px solid var(--linha); animation: surgir .3s ease both; }
 .item:last-child { border-bottom: 0; }
 .item__icon { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; flex: none; border: 2px solid; margin-top: 1px; }
 .item__icon svg { width: 14px; height: 14px; }
@@ -418,8 +418,8 @@ svg { width: 18px; height: 18px; flex: none; }
 .resultados-head { display: flex; align-items: center; justify-content: space-between; margin: 22px 0 12px; color: var(--tinta-2); font-size: 15px; }
 .resultados-head strong { color: var(--tinta); font-family: var(--fonte-titulo); font-size: 18px; }
 .resultados { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
-.cand { font: inherit; text-align: left; color: inherit; background: var(--folha); border: 1px solid var(--linha); border-top: 3px solid var(--linha-forte); border-radius: var(--raio-folha); padding: 18px 20px; cursor: pointer; display: flex; flex-direction: column; gap: 12px; transition: border-color .15s; }
-.cand:hover, .cand:focus-visible { border-color: var(--caneta-borda); border-top-color: var(--caneta); outline: none; }
+.cand { font: inherit; text-align: left; color: inherit; background: var(--folha); border: 1px solid var(--linha); border-top: 3px solid var(--linha-forte); border-radius: var(--raio-folha); padding: 18px 20px; cursor: pointer; display: flex; flex-direction: column; gap: 12px; transition: border-color .15s, transform .15s, box-shadow .15s; animation: surgir .3s ease both; }
+.cand:hover, .cand:focus-visible { border-color: var(--caneta-borda); border-top-color: var(--caneta); outline: none; transform: translateY(-2px); box-shadow: 0 8px 22px rgba(26, 34, 56, .10); }
 .cand:focus-visible { box-shadow: 0 0 0 3px var(--caneta-clara); }
 .cand__top { display: flex; align-items: center; gap: 12px; }
 .cand__nome { flex: 1; min-width: 0; display: flex; flex-direction: column; }
@@ -452,8 +452,11 @@ body.modal-aberto { overflow: hidden; }
   60%  { opacity: 1; transform: rotate(-7deg) scale(.94); }
   100% { opacity: 1; transform: rotate(-7deg) scale(1); }
 }
+@keyframes carimbar-suave { from { opacity: 0; } to { opacity: 1; } }
+/* Movimento reduzido: troca só os movimentos grandes por um fade; carregamentos e entradas continuam */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .carimbo { animation-name: carimbar-suave; animation-duration: .4s; }
+  .cand:hover, .cand:focus-visible { transform: none; }
 }
 
 /* ---------- Responsivo ---------- */
