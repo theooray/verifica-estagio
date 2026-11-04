@@ -452,10 +452,7 @@ body.modal-aberto { overflow: hidden; }
   60%  { opacity: 1; transform: rotate(-7deg) scale(.94); }
   100% { opacity: 1; transform: rotate(-7deg) scale(1); }
 }
-@keyframes carimbar-suave { from { opacity: 0; } to { opacity: 1; } }
-/* Movimento reduzido: troca só os movimentos grandes por um fade; carregamentos e entradas continuam */
 @media (prefers-reduced-motion: reduce) {
-  .carimbo { animation-name: carimbar-suave; animation-duration: .4s; }
   .cand:hover, .cand:focus-visible { transform: none; }
 }
 
