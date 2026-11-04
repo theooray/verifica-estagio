@@ -6,7 +6,7 @@
   <title>VerificaEstágio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
           Banco de Currículos
         </a>
       </nav>
-      <span class="badge badge--muted">Protótipo · dados simulados</span>
+      <span class="badge badge--muted">Protótipo com dados simulados</span>
     </div>
   </header>
 
@@ -100,7 +100,7 @@
           <section class="card" id="card-anexo">
             <div class="card__head">
               <h2>Contrato de estágio</h2>
-              <span class="hint">PDF ou DOCX · até 10 MB</span>
+              <span class="hint">PDF ou DOCX, até 10 MB</span>
             </div>
 
             <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="Arraste o contrato aqui ou clique para anexar">
@@ -150,7 +150,6 @@
               <p class="submit-row__hint" id="pendencias-envio"></p>
               <button type="button" class="btn btn--primary btn--lg" id="btn-enviar" disabled>
                 Enviar para verificação
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </button>
             </div>
           </section>
@@ -244,7 +243,7 @@
                 <small class="field__error"></small>
               </div>
               <div class="field field--full">
-                <label for="cv-email">E-mail * <span class="optional">— para receber contatos e notificações</span></label>
+                <label for="cv-email">E-mail * <span class="optional">(para receber contatos e notificações)</span></label>
                 <input id="cv-email" data-campo="email" type="email" placeholder="seu.nome@email.com">
                 <small class="field__error"></small>
               </div>
@@ -301,7 +300,7 @@
           <section class="card">
             <div class="card__head">
               <h2>Currículo próprio <span class="optional">(opcional)</span></h2>
-              <span class="hint">PDF · até 2 MB</span>
+              <span class="hint">PDF, até 2 MB</span>
             </div>
             <div id="cv-anexo-zona" class="dropzone dropzone--compact" tabindex="0" role="button" aria-label="Anexar currículo em PDF">
               <div class="dropzone__icon" aria-hidden="true">

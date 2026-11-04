@@ -336,7 +336,7 @@
       <div class="rel-head">
         <div>
           <h1>Relatório de verificação</h1>
-          <p>${escapar(r.arquivo)} · analisado em ${dataFmt}</p>
+          <p>${escapar(r.arquivo)}, analisado em ${dataFmt}</p>
         </div>
         <div class="rel-actions">
           <button type="button" class="btn btn--secondary" id="btn-nova">
@@ -353,12 +353,11 @@
       ${r.semTexto ? `<div class="card" style="margin-bottom:20px;border-color:var(--warn-100);background:var(--warn-50)">Não foi possível extrair texto do arquivo (pode ser um documento digitalizado). Os itens abaixo foram marcados como não encontrados.</div>` : ''}
 
       <div class="status status--${r.status}">
-        <div class="status__icon">${st.icone}</div>
-        <div>
-          <div class="status__label">Status geral</div>
-          <div class="status__title">${st.titulo}</div>
-          <p class="status__text">${st.texto}</p>
+        <div class="carimbo" role="img" aria-label="Status geral: ${st.titulo}">
+          <span class="carimbo__titulo">${st.titulo}</span>
+          <span class="carimbo__data">${r.data.toLocaleDateString('pt-BR')}</span>
         </div>
+        <p class="status__text">${st.texto}</p>
         <div class="status__score">
           <strong>${r.acertos}/${r.total}</strong>
           <span>itens corretos</span>

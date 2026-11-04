@@ -69,7 +69,7 @@ window.Curriculos = (function () {
   function corAvatar(texto) {
     let h = 0;
     for (const c of texto) h = (h * 31 + c.charCodeAt(0)) % 360;
-    return `hsl(${h} 55% 42%)`;
+    return `hsl(${h} 32% 36%)`;
   }
 
   function idade(nasc) {
@@ -688,10 +688,10 @@ window.Curriculos = (function () {
             <span>${escapar(d.turno)}</span>
             <span>${ICONE.local}${escapar(d.cidade)} – ${escapar(d.uf)}</span>
           </div>
-          <p class="cand__skills">${r.cv.habilidades.slice(0, 3).map(escapar).join(' · ')}</p>
+          <p class="cand__skills">${r.cv.habilidades.slice(0, 3).map(escapar).join(', ')}</p>
           <div class="cand__foot">
             <span>Publicado em ${dataCurta(r.publicadoEm)}</span>
-            <span class="cand__link">Ver currículo →</span>
+            <span class="cand__link">Ver currículo</span>
           </div>
         </button>`;
     }).join('') || `
