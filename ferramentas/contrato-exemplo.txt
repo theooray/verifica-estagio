@@ -1,0 +1,58 @@
+# TERMO DE COMPROMISSO DE ESTÁGIO
+^ Estágio Não Obrigatório – Lei nº 11.788, de 25 de setembro de 2008
+^ DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO – CONTÉM ERROS PROPOSITAIS
+=
+Pelo presente instrumento, as partes abaixo qualificadas celebram entre si o presente Termo de Compromisso de Estágio, que se regerá pelas cláusulas e condições seguintes.
+
+## DAS PARTES
+INSTITUIÇÃO DE ENSINO: Univale – Universidade Vale do Rio Doce, inscrita no CNPJ sob o nº 12.345.678/0001-90, com sede em Governador Valadares – MG, neste ato representada por sua Central de Estágios.
+
+CONCEDENTE: TechVale Soluções Digitais Ltda., inscrita no CNPJ sob o nº 98.765.432/0001-10, com sede na Avenida das Palmeiras, 1500, Centro, Governador Valadares – MG, neste ato representada por seu sócio-administrador.
+
+ESTAGIÁRIO(A): Mariana Alves Correia, brasileira, solteira, regularmente matriculada no 6º período do curso de Sistemas de Informação, portadora do CPF nº 529.982.247-25, residente e domiciliada em Governador Valadares – MG.
+
+## CLÁUSULA 1ª – DO OBJETO
+O presente termo tem por objeto formalizar as condições para a realização de estágio não obrigatório do(a) ESTAGIÁRIO(A), como ato educativo escolar supervisionado, visando à complementação do ensino e da aprendizagem, em conformidade com o projeto pedagógico do curso.
+
+## CLÁUSULA 2ª – DA VIGÊNCIA
+O estágio terá vigência com início em 01/03/2026 e término em 01/02/2026, podendo ser prorrogado mediante termo aditivo, respeitado o limite máximo de 2 (dois) anos, conforme o art. 11 da Lei nº 11.788/2008.
+
+## CLÁUSULA 3ª – DA JORNADA
+A jornada de atividades do(a) ESTAGIÁRIO(A) será de 8 (oito) horas diárias e 40 (quarenta) horas semanais, de segunda a sexta-feira, compatível com o horário escolar.
+
+## CLÁUSULA 4ª – DO LOCAL E DAS ATIVIDADES
+As atividades serão desenvolvidas nas dependências da CONCEDENTE, na cidade de Governador Valadares – MG, e consistirão em suporte ao desenvolvimento de sistemas web, testes de software e documentação técnica, compatíveis com a formação acadêmica do(a) ESTAGIÁRIO(A), conforme plano de atividades anexo.
+
+## CLÁUSULA 5ª – DA BOLSA E DO AUXÍLIO-TRANSPORTE
+A CONCEDENTE pagará ao(à) ESTAGIÁRIO(A) bolsa de estágio no valor mensal de R$ 1.200,00 (mil e duzentos reais), acrescida de auxílio-transporte no valor mensal de R$ 220,00 (duzentos e vinte reais), até o 5º dia útil do mês subsequente.
+
+## CLÁUSULA 6ª – DO SEGURO
+Na vigência do presente termo, o(a) ESTAGIÁRIO(A) estará segurado(a) contra acidentes pessoais, conforme o art. 9º, inciso IV, da Lei nº 11.788/2008, por meio de seguro contratado pela CONCEDENTE junto à Seguradora Vida Segura S.A., com capital segurado de R$ 30.000,00 (trinta mil reais).
+
+## CLÁUSULA 7ª – DA SUPERVISÃO E ORIENTAÇÃO
+O estágio será supervisionado por funcionário do quadro de pessoal da CONCEDENTE com formação ou experiência profissional na área, e orientado por professor da INSTITUIÇÃO DE ENSINO.
+SUPERVISOR(A) DO ESTÁGIO: Carlos Eduardo Mendes, Analista de Sistemas Sênior.
+PROFESSOR(A) ORIENTADOR(A): Profa. Dra. Helena Duarte Ribeiro.
+
+## CLÁUSULA 8ª – DO RECESSO
+É assegurado ao(à) ESTAGIÁRIO(A) período de recesso de 30 (trinta) dias, a ser gozado preferencialmente durante suas férias escolares, sempre que o estágio tenha duração igual ou superior a 1 (um) ano, ou de maneira proporcional nos demais casos.
+
+## CLÁUSULA 9ª – DA RESCISÃO
+O presente termo poderá ser rescindido a qualquer tempo, por iniciativa de qualquer das partes, mediante comunicação por escrito, ou automaticamente em caso de conclusão, abandono ou trancamento do curso.
+
+## CLÁUSULA 10ª – DO FORO
+Fica eleito o foro da Comarca de Governador Valadares – MG para dirimir quaisquer dúvidas oriundas do presente termo.
+
+E, por estarem de acordo, as partes firmam o presente instrumento em 3 (três) vias de igual teor e forma.
+
+Governador Valadares – MG, 20 de fevereiro de 2026.
+
+## ASSINATURAS
+ESTAGIÁRIO(A) — Mariana Alves Correia
+Assinado eletronicamente em 20/02/2026 às 10:14 · código de verificação 7F3A-21C9
+
+INSTITUIÇÃO DE ENSINO — Profa. Dra. Helena Duarte Ribeiro (Central de Estágios – Univale)
+Assinado eletronicamente em 21/02/2026 às 09:02 · código de verificação 9B10-4D7E
+
+CONCEDENTE — TechVale Soluções Digitais Ltda.
+Assinatura pendente: ________________________________________________

@@ -1,0 +1,7 @@
+# Configuração local do Claude Code (servidor de testes)
+.claude/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
