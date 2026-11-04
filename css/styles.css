@@ -353,7 +353,9 @@ svg { width: 18px; height: 18px; flex: none; }
 .empresa-bar__id div { display: flex; flex-direction: column; line-height: 1.3; }
 .empresa-bar__id .hint { font-size: 12px; }
 .filtros { padding: 18px 20px; }
-.filtros__grid { display: grid; grid-template-columns: 1.6fr repeat(5, 1fr); gap: 12px; }
+.filtros__grid { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(5, minmax(0, 1fr)); gap: 12px; }
+.filtros__grid .field { min-width: 0; }
+.filtros .field input, .filtros .field select { width: 100%; min-width: 0; text-overflow: ellipsis; }
 .filtros .field input, .filtros .field select { min-height: 40px; padding-top: 8px; padding-bottom: 8px; font-size: 14px; }
 .resultados-head { display: flex; align-items: center; justify-content: space-between; margin: 18px 0 12px; color: var(--text-2); font-size: 14px; }
 .resultados { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
